@@ -14,6 +14,23 @@ class Producto{
 const producto1=new Producto("Maus",800);
 const producto2=new Producto("Laptop",1000);
 
+//Herencia (extends)
+class Libro extends Producto{
+    constructor(nombre, precio, isbn){
+        super(nombre,precio);
+        this.isbn=isbn;
+    }
+
+    formatearProducto(){
+        return `${super.formatearProducto()} y su ISBN es ${this.isbn}`;
+    }
+}
+
+const libro=new Libro('Poder 48', 50, '781824455');
+
+console.log(libro);
+console.log(libro.formatearProducto());
+
 console.log(producto1);
 console.log(producto2);
 console.log(producto1.formatearProducto());
