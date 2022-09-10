@@ -1,5 +1,5 @@
 
-//No es necesario meternos con resolver o rejected de Promise ya que Notificacion ya lo tiene incorporado
+//No es necesario meternos con resolver o rejected de Promise ya que Notification api ya lo tiene incorporado
 
 const boton=document.querySelector('#boton');
 

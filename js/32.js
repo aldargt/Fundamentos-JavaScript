@@ -3,7 +3,7 @@ function descargarNuevosClientes(){
     return new Promise(resolve=>{
         console.log('Decargando clientes... Espere...');
 
-        setTimeout(()=>{ //SetTimeout funciona una vez a diferencia de SetInterval que esta abjo comentado
+        setTimeout(()=>{ //SetTimeout funciona una vez a diferencia de SetInterval que esta abajo comentado
             resolve('Los clientes fueron descargados');
         },5000);
     });

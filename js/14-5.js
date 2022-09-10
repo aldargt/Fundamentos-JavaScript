@@ -10,7 +10,7 @@ numeros[2]='modificado';
 numeros.push(70);
 numeros.push(80,90,100);
 
-//Agregar elementos a un arreglo al final (Usando unshift) Lo agrega al inicio del arreglo
+//Agregar elementos a un arreglo al inicio (Usando unshift) Lo agrega al inicio del arreglo
 numeros.unshift(-10);
 numeros.unshift(-20,-30,-40);
 

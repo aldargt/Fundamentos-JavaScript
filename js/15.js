@@ -26,23 +26,23 @@ meses.forEach(function(mes){
     }
 });
 
-//Includes
+//Includes sirve para avisar con un booleando si existe tal valor en el arreglo
 let resultado=meses.includes('Marzo');
 
-//Some ideal para arreglo de objetos
+//Some ideal para verificar si existe dentro de un arreglo de objetos
 resultado=carrito.some(function(producto){
     return producto.Nombre=="Producto7";
 });
 
-//Otra manera de hacer lo mismo de arriva para arreglos con objetos pero mas corto
+//Otra manera de hacer lo mismo de arriva para arreglos con objetos pero mas corto(Arrow functions)
 resultado=carrito.some(producto=>producto.Nombre=="Producto7")
 
-//Reduce ---> Sumar los precios de los productos del arreglo con objetos
+//Reduce ---> Sumar los precios de los productos del arreglo con objetos 
 resultado=carrito.reduce(function(total, producto){
     return total+producto.Precio;
-},0);
+},0);   //el 0 significa que comenzara a sumar desde "cero"
 
-//Forma reducida de arriva (Reduce)
+//Forma reducida de arriva (Reduce) (Arrow functions)
 resultado=carrito.reduce((total,producto)=>total+producto.Precio,0);
 
 

@@ -7,7 +7,7 @@ const producto={
 }
 
 //Object constructor
-function Producto(nombre, precio,disponible){
+function Producto(nombre,precio,disponible){
     this.nombre=nombre;
     this.precio=precio;
     this.disponible=disponible;
@@ -32,6 +32,6 @@ console.log(producto3);
 console.log(producto4);
 console.log(formatearProducto(producto2));
 
-//Este hace referencia el de protype linea 15 osea hace lo mismo que la linea 25
+//Este hace referencia el de prototype linea 15 osea hace lo mismo que la linea 25
 console.log(producto2.formatearProducto());
 

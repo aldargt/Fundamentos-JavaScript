@@ -22,7 +22,7 @@ caarrito.forEach(function(producto){
 
 caarrito.forEach(producto=>console.log(producto)); //Lo mismo de arriva pero con arrow functions
 
-const arreglo1=caarrito.forEach(producto=>producto.Nombre); //Ojo este no funciona porque esta usando foreach
+const arreglo1=caarrito.forEach(producto=>producto.Nombre); //Ojo este no funciona porque esta usando foreach (ver linea 33)
 
 
 
